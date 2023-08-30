@@ -173,7 +173,7 @@ projects:
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
       - title: Ask Astraios
-        link: "github.com/lee-blake/ask-astraois"
+        link: "https://github.com/lee-blake/ask-astraois"
         tagline: "A tool to track the locations of a list of astronomical objects the user wants to view."
 
       #oss:

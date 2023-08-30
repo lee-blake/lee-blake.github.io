@@ -5,7 +5,7 @@
 sidebar:
     position: right # position of the sidebar : left or right
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Lee Blake
@@ -13,8 +13,8 @@ sidebar:
     avatar:  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
+    email:
+    phone: 
     timezone: America/Eastern Timezone
     citizenship:
     website:  #do not add http://
@@ -60,9 +60,9 @@ career-profile:
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: BSc in Computer Science
+        university: Ball State University
+        time: 2023 - Present
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -71,9 +71,9 @@ education:
           pretium quis, sem.
             - Bullet point
             - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+      - degree: HBSc in Applied Mathematics
+        university: University of Utah
+        time: 2013 - 2019
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -124,46 +124,46 @@ experiences:
             - Bullet point
             - Bullet point
 
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+#certifications:
+#      title: Certifications
+#      list:
+#        - name: CV Builder
+#          start: 2020
+#          end: 2021
+#          organization: Microsoft
+#          credentialid: 111-222
+#          credentialurl: www.google.com
+#          credentialname: Google
+#          details: |
+#            Details about cert. Lorem ipsum dolor sit amet, consectetur
+#            adipiscing elit.
+#            Nullam eget orci purus. Nullam ultrices neque nibh.
+#            Aenean fermentum, felis vulputate suscipit accumsan,
+#            sem enim bibendum augue, sed convallis arcu lacus at dui.
+#            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+#            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+#            Praesent venenatis erat non augue suscipit consectetur.
+#
+#            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
+#            fringilla vel. Ut euismod, sem sed vulputate venenatis,
+#            justo diam viverra velit, sed rhoncus leo leo eu justo.
+#            Suspendisse placerat risus ante, sed porta nisi blandit at.
+#        - name: Git learning
+#          start: 2019
+#          end:
+#          organization: Microsoft
+#          credentialid: 111-222
+#          credentialurl: www.github.com
+#          credentialname: Github
+#          details: |
+#            Older certification. Lorem ipsum dolor sit amet, consectetur
+#            adipiscing elit.
+#            Nullam eget orci purus. Nullam ultrices neque nibh.
+#            Aenean fermentum, felis vulputate suscipit accumsan,
+#            sem enim bibendum augue, sed convallis arcu lacus at dui.
+#            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+#            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+#            Praesent venenatis erat non augue suscipit consectetur.
 
 projects:
     title: Projects
@@ -211,27 +211,27 @@ oss:
         link: "#"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+#publications:
+#    title: Publications
+#    intro: |
+#      You can list your publications in this section. Lorem ipsum dolor sit
+#      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#      bibendum fringilla a eu lectus.
+#    papers:
+#      - title: The Art of Computer Programming
+#        link: "#"
+#        authors: Donald E. Knuth
+#        conference: Addison-Wesley, 1968
+#
+#      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#        link: "#"
+#        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+#
+#      - title: A syntax directed compiler for Algol 60
+#        link: "#"
+#        authors: Edgar T. Irons
+#        conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency

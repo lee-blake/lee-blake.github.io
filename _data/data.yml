@@ -13,7 +13,7 @@ sidebar:
     avatar:  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email:
+    email: lee.b.7777@proton.me
     phone: 
     timezone: America/Eastern Timezone
     citizenship:
@@ -39,13 +39,13 @@ sidebar:
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Running
           link:
 
-        - item: Snowboarding
+        - item: Archery
           link:
 
-        - item: Cooking
+        - item: Model Construction
           link:
 
 career-profile:

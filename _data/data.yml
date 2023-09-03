@@ -48,9 +48,10 @@ sidebar:
         - item: Model Construction
           link:
 
-            #career-profile:
-            #    title: Career Profile
-            #    summary: |
+career-profile:
+    title: Career Profile
+    summary: |
+      A computer science student focused on cybersecurity with a strong academic record. Experienced both in working solo and in teams. Enjoys solving hard problems.
 
 education:
     title: Education

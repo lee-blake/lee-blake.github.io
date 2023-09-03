@@ -60,28 +60,24 @@ career-profile:
 education:
     title: Education
     info:
-      - degree: BSc in Computer Science
+      - degree: BSc in Computer Science (in progress)
         university: Ball State University
         time: 2023 - Present
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          I am currently studying for a degree at Ball State with an anticipated graduation date of either December 2024 or May 2025. My concentration will be in Cybersecurity & Secure Software Design. 
+      - degree: Graduate study in Mathematics
+        university: University of Illinois Urbana-Champaign
+        time: 2019 - 2022
+        details: |
+          I was admitted to and studied in UIUC's Mathematics PhD program. However, I realized that I did not want to pursue a career in academia and left the program in Spring of 2022.
       - degree: HBSc in Applied Mathematics
         university: University of Utah
         time: 2013 - 2019
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Some courses of interest include
+            - Numerical Analysis 1 & 2
+            - Introduction to Optimization
+            - Mathematical Modeling
 
 experiences:
     title: Experiences
